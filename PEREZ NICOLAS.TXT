@@ -16,5 +16,5 @@ SECUENCIA DE COMANDOS GIT:
 git init
 git add .
 git commit -m "Entrega examen practico PowerShell y Git"
-git remote add origin https://github.com.git
+git remote add origin https://github.com/pereznicolas1994/PARCIAL-PROGRAMACION-PARA-CIBERSEGURIDAD/commit/02de3270e59ef5a4e6f9d891ff30e252f0f75a59
 git push origin main
