@@ -1,0 +1,20 @@
+$lista = Get-Process
+$cantidad = $lista.Length
+
+[int]$limite = Read-Host "Ingresa el limite de entradas/procesos para el partido"
+
+if ($cantidad -gt $limite -And $cantidad -lt 500) {
+    Write-Host "Alerta: El servidor del partido supera el limite pero esta bajo los 500 procesos."
+} else {
+    Write-Host "El servidor funciona fuera del rango de alerta."
+}
+
+$PSVersionTable
+
+
+SECUENCIA DE COMANDOS GIT:
+git init
+git add .
+git commit -m "Entrega examen practico PowerShell y Git"
+git remote add origin https://github.com.git
+git push origin main
